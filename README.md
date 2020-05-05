@@ -32,6 +32,7 @@ function setColor(density) {
     return colors[id];
 }
 </pre></code>
+
 and what that does is change the density of the color of the shade of the state fill in color depending on the number of airports in the state. The more airport the state has, the more "dense" the color will be, which is darker shade and vice versa for states with less airports.
 
 <pre><code>
@@ -67,6 +68,7 @@ legend.onAdd = function () {
     return div;
 };
 </pre></code>
+
 This will populate the legend with number of airports and it will show the color based on the colors I've had before showing how many airports are in each state.
 There is also another part of the legend that shows if the airport has a air traffic control tower based on the color of the paper plane icon.
 
